@@ -12,7 +12,7 @@ CONTRIBUTE
 
 USAGE
 =====
-Install Ruby, RubyGems and a ruby-database driver (e.g. `gem install mysql`) then:
+Install Ruby, RubyGems and a ruby-database driver (e.g. `gem install mysql2`) then:
 
     $ gem install standalone_migrations
 
@@ -32,7 +32,7 @@ Add database configuration to `db/config.yml` in your projects base directory e.
       timeout: 5000
 
     production:
-      adapter: mysql
+      adapter: mysql2
       encoding: utf8
       reconnect: false
       database: somedatabase_dev
@@ -264,3 +264,4 @@ Contributors
  - [Yi Wen](https://github.com/ywen)
  - [Jonathan Rochkind](https://github.com/jrochkind)
  - [Michael Mikhailov](https://github.com/yohanson)
+ - [Pysis868](https://github.com/Pysis868)
